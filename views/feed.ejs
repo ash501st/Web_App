@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Normandy Discussion Board</title>
+</head>
+<body>
+    <h1>Extranet Feed</h1>
+    <a href="/moderate">Go to Moderation Panel</a>
+    <hr>
+
+    <h3>Create an Account</h3>
+    <form action="/register" method="POST">
+        <input type="text" name="newUsername" placeholder="Enter username" required>
+        <button type="submit">Register</button>
+    </form>
+    <hr>
+
+    <h3>Create a New Post</h3>
+    <form action="/add-post" method="POST">
+        <input type="text" name="username" placeholder="Your Username" required><br><br>
+        <textarea name="content" placeholder="What's on your mind?" required></textarea><br><br>
+        <button type="submit">Post to Feed</button>
+    </form>
+    <hr>
+
+    <h3>Discussion Threads</h3>
+    <% posts.forEach(post => { %>
+        <div>
+            <strong>@<%= post.username %></strong>
+            <p><%= post.content %></p>
+            <hr style="width: 20%; margin-left: 0;">
+        </div>
+    <% }) %>
+</body>
+</html>

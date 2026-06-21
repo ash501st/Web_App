@@ -1,6 +1,6 @@
 # Overview
 
-The video gives a demonstration of me launching the server and giving a little tour of the 2 webpages, as well as a quick over view of the code.
+The video gives a demonstration of me launching the server and giving a little tour of the 2 webpages, as well as a quick overview of the code.
 
 The purpose of this software was to practice making a web application, using Node-JavaScript, I wanted to make a forum/discussion board, where users could create accounts, make posts, and a moderator could delete/moderate the server.
 
@@ -16,7 +16,6 @@ I created this in Visual Studio Code, with Node-JavaScript. It comprised of 2 HT
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [tutorialspoint](https://www.tutorialspoint.com/nodejs/index.htm)
 * [nodejs](https://nodejs.org/learn)
 
